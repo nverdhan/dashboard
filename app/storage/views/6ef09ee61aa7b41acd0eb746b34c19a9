@@ -1,0 +1,57 @@
+        <!--[if lt IE 9]>
+  <script type="text/javascript" src="assets/js/libs/excanvas.min.js"></script>
+  <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script type="text/javascript" src="assets/js/libs/respond.min.js"></script>
+  <![endif]-->
+<!-- <?php echo HTML::script('assets/js/edroot_report.js'); ?> -->
+<?php echo HTML::script('assets/plugins/core/pace/pace.min.js'); ?>
+<?php echo HTML::script('assets/js/jquery-2.1.1.min.js'); ?>
+<?php echo HTML::script('assets/js/jquery-ui.js'); ?>
+<!-- Bootstrap plugins -->
+<?php echo HTML::script('assets/js/bootstrap/bootstrap.js'); ?>
+  <!-- Core plugins ( not remove ever) -->
+  <!-- Handle responsive view functions -->
+<?php echo HTML::script('assets/js/jRespond.min.js'); ?>
+<!-- Custom scroll for sidebars,tables and etc. -->
+<?php echo HTML::script('assets/plugins/core/slimscroll/jquery.slimscroll.min.js'); ?>
+<?php echo HTML::script('assets/plugins/core/slimscroll/jquery.slimscroll.horizontal.min.js'); ?>
+<!-- Resize text area in most pages -->
+<?php echo HTML::script('assets/plugins/forms/autosize/jquery.autosize.js'); ?>
+<!-- Provide quick search for many widgets -->
+<?php echo HTML::script('assets/plugins/core/quicksearch/jquery.quicksearch.js'); ?>
+<!-- Bootbox confirm dialog for reset postion on panels -->
+<?php echo HTML::script('assets/plugins/ui/bootbox/bootbox.js'); ?>
+<!-- Other plugins ( load only nessesary plugins for every page) -->
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.pie.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.resize.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.time.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.growraf.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.categories.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.stack.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/jquery.flot.tooltip.min.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/flot/date.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/sparklines/jquery.sparkline.js'); ?>
+<?php echo HTML::script('assets/plugins/charts/pie-chart/jquery.easy-pie-chart.js'); ?>
+<?php echo HTML::script('assets/plugins/forms/icheck/jquery.icheck.js'); ?>
+<?php echo HTML::script('assets/plugins/forms/tags/jquery.tagsinput.min.js'); ?>
+<?php echo HTML::script('assets/plugins/forms/tinymce/tinymce.min.js'); ?>
+<?php echo HTML::script('assets/plugins/misc/highlight/highlight.pack.js'); ?>
+<?php echo HTML::script('assets/plugins/misc/countTo/jquery.countTo.js'); ?>
+<?php echo HTML::script('assets/plugins/ui/weather/skyicons.js'); ?>
+<?php echo HTML::script('assets/plugins/ui/notify/jquery.gritter.js'); ?>
+<?php echo HTML::script('assets/plugins/ui/calendar/fullcalendar.js'); ?>
+<?php echo HTML::script('assets/js/jquery.sprFlat.js'); ?>
+<?php echo HTML::script('assets/js/app.js'); ?>
+<!-- Edroot javascripts -->
+<?php echo HTML::script('assets/js/pages/edrootdashboard.js'); ?>
+<?php echo HTML::script('assets/js/edroot_report.js'); ?>
+<!-- Angular JS -->
+<?php echo HTML::script('assets/js/angular.min.js'); ?>
+                                        <script>
+                                        window.jQuery || document.write('<script src="assets/js/libs/jquery-2.1.1.min.js">\x3C/script>')
+                                        </script>
+                                        <script>
+                                        window.jQuery || document.write('<script src="assets/js/libs/jquery-ui-1.10.4.min.js">\x3C/script>')
+                                        </script>  
+                                        <!-- // <script src="http://d3js.org/d3.v3.min.js"></script> -->

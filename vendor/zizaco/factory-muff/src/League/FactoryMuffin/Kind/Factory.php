@@ -1,0 +1,45 @@
+<?php
+
+namespace League\FactoryMuffin\Kind;
+
+use League\FactoryMuffin\Kind;
+
+class Factory extends Kind
+{
+    private $methods = array(
+        'getKey',
+        'pk',
+    );
+
+    private $properties = array(
+      'id',
+      '_id'
+    );
+
+    public function generate()
+    {
+        $factory = new \League\FactoryMuffin\FactoryMuffin;
+        $model = $factory->create(substr($this->kind, 8));
+        return $this->getId($model);
+    }
+
+    private function getId($model)
+    {
+        // Check to see if we can get an ID via our defined methods
+        foreach ($this->methods as $method) {
+            if (method_exists($model, $method)) {
+                return $model->$method();
+            }
+        }
+
+        // Check to see if we can get an ID via our defined methods
+        foreach ($this->properties as $property) {
+            if (isset($model->$property)) {
+                return $model->$property;
+            }
+        }
+
+        // We cannot find an ID
+        return null;
+    }
+}

@@ -1,0 +1,14 @@
+<!-- Css files -->
+<!-- Icons -->
+<!-- <link href="assets/css/icons.css" rel="stylesheet" /> -->
+<?php echo HTML::style('assets/css/icons.css'); ?>
+<!-- jQueryUI -->
+<?php echo HTML::style('assets/css/sprflat-theme/jquery.ui.all.css'); ?>
+<!-- Bootstrap stylesheets (included template modifications) -->
+<?php echo HTML::style('assets/css/bootstrap.css'); ?>
+<!-- Plugins stylesheets (all plugin custom css) -->
+<?php echo HTML::style('assets/css/plugins.css'); ?>
+<!-- Main stylesheets (template main css file) -->
+<?php echo HTML::style('assets/css/main.css'); ?>
+<!-- Custom stylesheets ( Put your own changes here ) -->
+<?php echo HTML::style('assets/css/custom.css'); ?>

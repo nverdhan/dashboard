@@ -1,0 +1,130 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+h2{
+font: bold 14px tahoma;
+}
+header, section, footer, aside, hgroup, article {
+display: block; /*displays as block tags*/
+}
+body{
+width:100%; /*specifying width is mandatory*/
+display:-webkit-box;
+-webkit-box-pack: center;
+} 
+#main_header
+{
+display:-webkit-box;
+display: -moz-box;                /* Mozilla */
+display: -webkit-box;             /* WebKit */
+display: box; 
+-webkit-box-orient:horizontal;
+-webkit-box-pack: center;
+ -moz-box-orient: horizontal;      /* Mozilla */
+ -webkit-box-orient: horizontal;   /* WebKit */
+  box-orient: horizontal;  
+}
+#inst
+{
+font: bold 30px tahoma;
+-webkit-box-flex:1;
+text-align:center;
+}
+#logo img{
+height:50px;
+width:100px;
+margin-left:200px;
+-webkit-box-flex:0;
+}
+#side_bar
+{
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:0;
+height:500px;
+width:200px;
+border:1px solid black;
+margin:10px;
+padding:10px;
+}
+#main_section{
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-box-flex:1;
+border:1px solid black;
+margin:10px;
+padding:10px;
+}
+#content
+{
+display:-webkit-box;
+-webkit-box-orient:horizontal;
+}
+#student_details img{
+padding:10px;
+width:160px;
+height:190px;
+}
+#details
+{
+color:#009999;
+text-align:center;
+font:20px bold tahoma;
+}
+#performence_chart table th
+{
+margin-left:5px;
+padding:5px;
+}
+#performence_chart table tr td{
+padding:5px;
+margin-left:5px;
+
+}
+#performence_chart{
+margin:10px;
+padding:10px;
+border:1px solid black;
+}
+#Test_wise_analysis
+{
+margin:10px;
+padding:10px;
+border:1px solid black;
+}
+#Test_wise_analysis table th
+{
+margin-left:5px;
+padding:5px;
+}
+#Test_wise_analysis table td
+{
+margin-left:5px;
+padding:5px;
+}
+#crosswot{
+margin:10px;
+padding:10px;
+border:1px solid black;
+}
+#Proficiency
+{
+margin:10px;
+padding:10px;
+border:1px solid black;
+}
+#Proficiency table th
+{
+margin-left:10px;
+padding:5px;
+}
+#Proficiency table td
+{
+margin-left:5px;
+padding:5px;
+}
+#Proficiency table
+{
+border:1px solid black;
+}
